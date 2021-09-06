@@ -3,6 +3,7 @@
     <Header/>
     <main>
       <MainContent/>
+      <MainLinks/>
     </main>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import Header from '@/components/Header.vue';
 import MainContent from '@/components/MainContent.vue';
+import MainLinks from '@/components/MainLinks.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    MainContent
+    MainContent,
+    MainLinks
   }
 }
 </script>
