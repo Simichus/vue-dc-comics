@@ -5,6 +5,9 @@
       <MainContent/>
       <MainLinks/>
     </main>
+    <footer>
+      <FooterTop/>
+    </footer>
   </div>
 </template>
 
@@ -12,13 +15,15 @@
 import Header from '@/components/Header.vue';
 import MainContent from '@/components/MainContent.vue';
 import MainLinks from '@/components/MainLinks.vue'
+import FooterTop from '@/components/FooterTop.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     MainContent,
-    MainLinks
+    MainLinks,
+    FooterTop
   }
 }
 </script>

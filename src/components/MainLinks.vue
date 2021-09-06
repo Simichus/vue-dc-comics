@@ -47,7 +47,7 @@ name:'MainLinks',
 
 section{
     background-color: $main-color;
-    padding: 60px 0
+    padding: 40px 0
 }
 ul{
     @include justify-spacing(center);
