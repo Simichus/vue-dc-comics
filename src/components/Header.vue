@@ -95,6 +95,7 @@ export default {
                 padding: 0 10px;
                 color: black;
                 &:hover{
+                  color: $main-color;
                     margin-bottom: -5px;
                     border-bottom: 5px solid $main-color;
                     
