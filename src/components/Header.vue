@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="container">
       <figure>
           <img src="@/assets/img/dc-logo.png" alt="">
       </figure>
