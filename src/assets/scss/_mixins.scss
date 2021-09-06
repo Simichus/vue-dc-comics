@@ -1,0 +1,13 @@
+@mixin justify-spacing($type: "center") {
+  display: flex;
+  @if $type == "center" {
+    justify-content: center;
+  } @else if $type == "between" {
+    justify-content: space-between;
+  } @else if $type == "start" {
+    justify-content: flex-start;
+  } @else if $type== "end" {
+    justify-content: flex-end;
+  }
+  align-items: center;
+}
